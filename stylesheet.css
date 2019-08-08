@@ -1,0 +1,199 @@
+body {
+    margin: 20px;
+}
+
+#headingDiv {
+    margin-bottom: 20px;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 32px;
+    margin-right: 20px;
+}
+
+button[disabled] {
+    cursor: not-allowed;
+}
+
+#playersButton,
+#boardsButton,
+#tablesButton,
+#leaderboardButton {
+    vertical-align: top;
+}
+
+#playersButton,
+#boardsButton,
+#tablesButton {
+    margin-right: 10px;
+}
+
+#tablesButton,
+#leaderboardButton {
+    display: none;
+}
+
+#loadDiv {
+    display: none;
+    margin-bottom: 30px;
+}
+
+#loadPlayers,
+#loadBoards,
+#loadTables {
+    display: none;
+}
+
+#loadPlayers,
+#loadBoards {
+    margin-right: 10px;
+}
+
+#playerInputDiv {
+    margin-bottom: 25px;
+}
+
+input {
+    padding: 5px;
+}
+
+#playerInput,
+#submit,
+#minimumMessage,
+#start {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#playerInput,
+#submit {
+    margin-right: 10px;
+}
+
+#minimumMessage {
+    margin-left: 5px;
+}
+
+#start {
+    display: none;
+}
+
+.playersColumn {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.playerRow {
+    margin-bottom: 10px;
+}
+
+.playerNumber,
+.playerName,
+.playerDelete {
+    display: inline-block;
+}
+
+.playerNumber {
+    width: 40px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.playerName {
+    margin-right: 20px;
+}
+
+#previousNextBoardDiv,
+#boards,
+#previousNextDiv,
+#rounds,
+#leaderboard {
+    display: none;
+}
+
+#previousNextBoardDiv,
+#previousNextDiv {
+    margin-bottom: 25px;
+}
+
+#previousBoard,
+#previous {
+    margin-right: 10px;
+}
+
+.board:nth-child(2),
+.board:nth-child(3),
+.board:nth-child(4) {
+    display: none;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.boardHeading {
+    margin-bottom: 0px;
+}
+
+.roundDone,
+.tableRowDone {
+    color: #22b14c;
+}
+
+.tablesColumn {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.tableRow {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 80px;
+    font-size: 20px;
+}
+
+.player {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+table {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th,
+td:nth-child(1) {
+    text-align: center;
+}
+
+td:nth-child(3),
+td:nth-child(4),
+td:nth-child(5) {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    text-align: right;
+}

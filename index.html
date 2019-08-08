@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Catan Tournament Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.4">
+    <link rel="icon" href="catan.png" type="image/png">
+
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <div id="headingDiv">
+        <h1>Catan Tournament Manager</h1>
+        <button id="playersButton" class="btn btn-primary" disabled>Players</button>
+        <button id="boardsButton" class="btn btn-primary">Boards</button>
+        <button id="tablesButton" class="btn btn-primary">Tables</button>
+        <button id="leaderboardButton" class="btn btn-primary">Leaderboard</button>
+    </div>
+
+    <div id="loadDiv">
+        <button id="loadPlayers" class="btn btn-primary">Load players</button>
+        <button id="loadBoards" class="btn btn-primary">Load boards</button>
+        <button id="loadTables" class="btn btn-primary">Load tables</button>
+    </div>
+    <div id="playerInputDiv">
+        <input id="playerInput" type="text" placeholder="player name">
+        <button id="submit" class="btn btn-primary">Submit</button>
+        <div id="minimumMessage">Minimum 8 players</div>
+        <button id="start" class="btn btn-primary">Start</button>
+    </div>
+    <div id="players"></div>
+
+    <div id="previousNextBoardDiv">
+        <button id="previousBoard" class="btn btn-primary" disabled>Previous</button>
+        <button id="nextBoard" class="btn btn-primary">Next</button>
+    </div>
+    <div id="boards">
+        <div class="board">
+            <h2 class="boardHeading">Round 1</h2>
+            <canvas id="board1" width="625" height="515"></canvas>
+        </div>
+        <div class="board">
+            <h2 class="boardHeading">Round 2</h2>
+            <canvas id="board2" width="625" height="515"></canvas>
+        </div>
+        <div class="board">
+            <h2 class="boardHeading">Round 3</h2>
+            <canvas id="board3" width="625" height="515"></canvas>
+        </div>
+        <div class="board">
+            <h2 class="boardHeading">Final</h2>
+            <canvas id="board4" width="625" height="515"></canvas>
+        </div>
+    </div>
+
+    <div id="previousNextDiv">
+        <button id="previous" class="btn btn-primary" disabled>Previous</button>
+        <button id="next" class="btn btn-primary">Next</button>
+    </div>
+    <div id="rounds"></div>
+
+    <div id="leaderboard"></div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
